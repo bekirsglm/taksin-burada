@@ -12,7 +12,7 @@ import { MdEmail, MdCall } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div data-aos="fade-up" data-aos-delay="300" className="bg-white text-black dark:bg-black dark:text-white">
+    <div className="bg-white text-black dark:bg-black dark:text-white">
       {/* upper section banner */}
       <div className="bg-primary">
         <div className="container text-black text-center py-10 lg:py-14 text-2xl font-bold space-y-4">

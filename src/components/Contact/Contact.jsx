@@ -27,7 +27,7 @@ const Contact = () => {
             </button>
           </div>
           {/* sağ form taraf*/}
-          <div data-aos="fade-up">
+          <div data-aos="fade-up" className="w-full">
             <div className="w-full md:max-w-87.5 mx-auto">
               <h1 className="uppercase text-2xl text-white bg-black px-5 py-3">
                 TAKSİ REZERVASYONU YAP
@@ -35,21 +35,21 @@ const Contact = () => {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 bg-white p-5">
                 <input
-                  className="inputField"
+                  className="inputField w-full"
                   type="text"
                   name=""
                   id=""
                   placeholder="Adın"
                 />
                 <input
-                  className="inputField"
+                  className="inputField w-full"
                   type="text"
                   name=""
                   id=""
                   placeholder="Telefon"
                 />
                 <input
-                  className="inputField"
+                  className="inputField w-full"
                   type="text"
                   name=""
                   id=""
@@ -57,14 +57,14 @@ const Contact = () => {
                 />
 
                 <input
-                  className="inputField"
+                  className="inputField w-full"
                   type="text"
                   name=""
                   id=""
                   placeholder="Varış"
                 />
 
-                <select className="sm:col-span-2 inputField" defaultValue="">
+                <select className="sm:col-span-2 inputField w-full" defaultValue="">
                   <option value="" disabled>
                     Araç Seçin
                   </option>
@@ -76,7 +76,7 @@ const Contact = () => {
                   <option value="business">Business Sınıfı - 30₺/km</option>
                 </select>
 
-                <button className="col-span-2 bg-black cursor-pointer w-full  mt-6  text-white py-2 px-4 rounded-lg">
+                <button className="sm:col-span-2 bg-black cursor-pointer w-full  mt-6  text-white py-2 px-4 rounded-lg">
                   Rezervasyon Yap
                 </button>
               </div>
