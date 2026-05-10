@@ -121,3 +121,7 @@ React-Frontend Developer
 
 # EKRAN GÖRÜNTÜSÜ - SCREENSHOT
 
+<img width="800" height="380" alt="EkranKayd2026-05-10100233-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/73b8bb30-322f-4b24-9ee6-fc3102958610" />
+
+
+
