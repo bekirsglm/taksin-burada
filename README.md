@@ -1,37 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚖 TaksinBurada
 
-## Getting Started
+### ✨ Proje Hakkında
 
-First, run the development server:
+TaksinBurada, modern kullanıcı deneyimi odaklı geliştirilmiş responsive bir taksi rezervasyon arayüzüdür.
+
+Projede;
+
+* modern UI tasarımı
+* hızlı kullanıcı akışı
+* mobil uyumluluk
+* component tabanlı mimari
+* performans odaklı yapı
+
+ön planda tutulmuştur.
+
+---
+
+# 🚀 Özellikler
+
+* 🚕 Modern taksi rezervasyon arayüzü
+* 📱 Tam responsive tasarım
+* 🌙 Dark Mode desteği
+* ⚡ Hızlı ve optimize yapı
+* 🎨 AOS animasyonları
+* 🧩 Yeniden kullanılabilir component yapısı
+* 📲 Mobil uyumlu navbar
+* 🔥 SEO uyumlu yapı
+* 🎯 Kullanıcı odaklı UX/UI
+
+---
+
+# 🛠️ Kullanılan Teknolojiler
+
+| Teknoloji    | Açıklama             |
+| ------------ | -------------------- |
+| Next.js      | React Framework      |
+| React.js     | UI geliştirme        |
+| Tailwind CSS | Styling              |
+| AOS          | Scroll animasyonları |
+| React Icons  | Icon sistemi         |
+| Next Themes  | Dark mode yönetimi   |
+
+---
+
+### ⚙️ Kurulum
+
+Projeyi klonlayın:
+
+```bash
+git clone https://github.com/bekirsglm/taksin-burada.git
+```
+
+Proje klasörüne girin:
+
+```bash
+cd taksin-burada
+```
+
+Bağımlılıkları yükleyin:
+
+```bash
+npm install
+```
+
+Projeyi başlatın:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# 📱 Responsive Tasarım
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Proje aşağıdaki cihazların tamamına uyumlu şekilde geliştirilmiştir:
 
-## Learn More
+* Mobile
+* Tablet
+* Laptop
+* Desktop
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 🎨 UI / UX Yaklaşımı
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Bu proje geliştirilirken;
 
-## Deploy on Vercel
+* sade tasarım anlayışı
+* minimum kullanıcı karmaşası
+* hızlı rezervasyon deneyimi
+* modern mobil uygulama hissi
+* okunabilirlik ve erişilebilirlik
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ön planda tutulmuştur.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# taksin-burada
+---
+
+# 🔮 Gelecek Güncellemeler
+
+* 📍 Harita entegrasyonu
+* 💳 Online ödeme sistemi
+* 📡 Canlı araç takibi
+* 👤 Kullanıcı giriş sistemi
+* 📲 Mobil uygulama desteği
+
+---
+
+# 👨‍💻 Developer
+
+## Bekir Sağlam
+
+React-Frontend Developer
+
+* React.js
+* Next.js
+* TypeScript
+* UI Development
+
+🌐 Portfolio: https://bekirsaglam.com
+
+# EKRAN GÖRÜNTÜSÜ - SCREENSHOT
+
