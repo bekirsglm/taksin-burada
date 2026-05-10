@@ -3,41 +3,50 @@ import React, { useState, useEffect } from "react";
 import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
 
 const DarkMode = () => {
-  const [theme, setTheme] = useState(
-    typeof window !== "undefined" && localStorage.getItem("theme")
-      ? localStorage.getItem("theme")
-      : "light",
+  const [theme, setTheme] = useState("light");
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme") || "light";
+    setTheme(savedTheme);
+
+    if (savedTheme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    const newTheme = theme === "dark" ? "light" : "dark";
+
+    setTheme(newTheme);
+    localStorage.setItem("theme", newTheme);
+
+    if (newTheme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  };
+
+  return (
+    <>
+      {theme === "dark" ? (
+        <BiSolidSun
+          onClick={toggleTheme}
+          className="text-2xl cursor-pointer"
+        />
+      ) : (
+        <BiSolidMoon
+          onClick={toggleTheme}
+          className="text-2xl cursor-pointer"
+        />
+      )}
+    </>
   );
-
-  const element =
-    typeof document !== "undefined" ? document.documentElement : null;
-
-    useEffect(() => {
-  localStorage.setItem("theme", theme);
-
-  if (theme === "dark") {
-    element.classList.add("dark");
-  } else {
-    element.classList.remove("light");
-    element.classList.remove("dark");
-  }
-});
-
-return (
-  <>
-    {theme === "dark" ? (
-      <BiSolidSun
-        onClick={() => setTheme("light")}
-        className="text-2xl cursor-pointer"
-      />
-    ) : (
-      <BiSolidMoon
-        onClick={() => setTheme("dark")}
-        className="text-2xl cursor-pointer"
-      />
-    )}
-  </>
-);
 };
- 
+
 export default DarkMode;
+
+
+
