@@ -21,7 +21,11 @@ const Navbar = () => {
       <div className="container py-2 md:py-0">
         <div className="flex items-center justify-between">
           {/* logo section */}
-          <Link href="/" className="text-3xl font-bold">
+          <Link
+            href="/"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="text-3xl font-bold"
+          >
             <span>TAKSİN</span>
             <span className="text-primary">BURADA</span>
           </Link>
@@ -35,6 +39,11 @@ const Navbar = () => {
                   <li key={id} className="py-4">
                     <Link
                       href={link}
+                      onClick={() => {
+                        if (link === "/") {
+                          window.scrollTo({ top: 0, behavior: "smooth" });
+                        }
+                      }}
                       className={`${isActive ? "bg-primary dark:text-black" : ""} text-lg font-medium text-black dark:text-white py-2 px-4 rounded-full hover:bg-primary duration-300`}
                     >
                       {name}

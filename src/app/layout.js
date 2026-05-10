@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ScrollToTop from "@/components/ScrollToTop/ScrollToTop";
 
 export const metadata = {
   title: "TaksinBurada",
@@ -17,9 +18,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="tr" suppressHydrationWarning>
       <body className={inter.className}>
+        <ScrollToTop />
         <Navbar />
 
-        <main className="pt-[50px] md:pt-[60px]">
+        <main className="pt-12.5 md:pt-15">
           {children}
         </main>
 
